@@ -1,0 +1,806 @@
+{
+  "nodes": [
+    {
+      "agent_id": "0",
+      "degree": 9,
+      "cluster": 0,
+      "traits": {
+        "Sociability": 0.625,
+        "Assertiveness": 0.65,
+        "Energy Level": 0.45,
+        "Compassion": 0.7,
+        "Respectfulness": 0.7,
+        "Trust": 0.425,
+        "Organization": 0.625,
+        "Productiveness": 0.55,
+        "Responsibility": 0.525,
+        "Anxiety": 0.8,
+        "Depression": 0.675,
+        "Emotional Volatility": 0.8,
+        "Intellectual Curiosity": 0.925,
+        "Aesthetic Sensitivity": 0.675,
+        "Creative Imagination": 0.625
+      },
+      "degree_centrality": 0.4737,
+      "betweenness_centrality": 0.0898,
+      "age": 32,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "1",
+      "degree": 7,
+      "cluster": 0,
+      "traits": {
+        "Sociability": 0.45,
+        "Assertiveness": 0.425,
+        "Energy Level": 0.525,
+        "Compassion": 0.625,
+        "Respectfulness": 0.775,
+        "Trust": 0.875,
+        "Organization": 0.675,
+        "Productiveness": 0.525,
+        "Responsibility": 0.625,
+        "Anxiety": 0.35,
+        "Depression": 0.2,
+        "Emotional Volatility": 0.175,
+        "Intellectual Curiosity": 0.9,
+        "Aesthetic Sensitivity": 1.0,
+        "Creative Imagination": 0.8
+      },
+      "degree_centrality": 0.3684,
+      "betweenness_centrality": 0.061,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "2",
+      "degree": 9,
+      "cluster": 3,
+      "traits": {
+        "Sociability": 0.575,
+        "Assertiveness": 0.7,
+        "Energy Level": 0.675,
+        "Compassion": 0.725,
+        "Respectfulness": 0.925,
+        "Trust": 0.675,
+        "Organization": 1.0,
+        "Productiveness": 1.0,
+        "Responsibility": 0.925,
+        "Anxiety": 0.5,
+        "Depression": 0.225,
+        "Emotional Volatility": 0.4,
+        "Intellectual Curiosity": 0.7,
+        "Aesthetic Sensitivity": 0.475,
+        "Creative Imagination": 0.8
+      },
+      "degree_centrality": 0.4737,
+      "betweenness_centrality": 0.1131,
+      "age": 55,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "3",
+      "degree": 4,
+      "cluster": 0,
+      "traits": {
+        "Sociability": 0.425,
+        "Assertiveness": 0.425,
+        "Energy Level": 0.575,
+        "Compassion": 0.6,
+        "Respectfulness": 0.7,
+        "Trust": 0.425,
+        "Organization": 0.6,
+        "Productiveness": 0.75,
+        "Responsibility": 0.525,
+        "Anxiety": 0.525,
+        "Depression": 0.775,
+        "Emotional Volatility": 0.5,
+        "Intellectual Curiosity": 0.725,
+        "Aesthetic Sensitivity": 0.525,
+        "Creative Imagination": 0.7
+      },
+      "degree_centrality": 0.2105,
+      "betweenness_centrality": 0.0031,
+      "age": 55,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "4",
+      "degree": 6,
+      "cluster": 0,
+      "traits": {
+        "Sociability": 0.975,
+        "Assertiveness": 0.6,
+        "Energy Level": 0.775,
+        "Compassion": 0.725,
+        "Respectfulness": 0.775,
+        "Trust": 0.475,
+        "Organization": 0.55,
+        "Productiveness": 0.575,
+        "Responsibility": 0.4,
+        "Anxiety": 0.675,
+        "Depression": 0.325,
+        "Emotional Volatility": 0.55,
+        "Intellectual Curiosity": 0.775,
+        "Aesthetic Sensitivity": 0.525,
+        "Creative Imagination": 0.9
+      },
+      "degree_centrality": 0.3158,
+      "betweenness_centrality": 0.0187,
+      "age": 32,
+      "gender": "male",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "5",
+      "degree": 8,
+      "cluster": 1,
+      "traits": {
+        "Sociability": 0.875,
+        "Assertiveness": 0.75,
+        "Energy Level": 0.65,
+        "Compassion": 0.575,
+        "Respectfulness": 0.8,
+        "Trust": 0.625,
+        "Organization": 0.8,
+        "Productiveness": 0.525,
+        "Responsibility": 0.55,
+        "Anxiety": 0.6,
+        "Depression": 0.2,
+        "Emotional Volatility": 0.475,
+        "Intellectual Curiosity": 0.8,
+        "Aesthetic Sensitivity": 0.475,
+        "Creative Imagination": 0.45
+      },
+      "degree_centrality": 0.4211,
+      "betweenness_centrality": 0.0792,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "6",
+      "degree": 5,
+      "cluster": 3,
+      "traits": {
+        "Sociability": 0.45,
+        "Assertiveness": 0.475,
+        "Energy Level": 0.375,
+        "Compassion": 0.825,
+        "Respectfulness": 0.95,
+        "Trust": 1.0,
+        "Organization": 0.775,
+        "Productiveness": 0.7,
+        "Responsibility": 0.65,
+        "Anxiety": 0.525,
+        "Depression": 0.35,
+        "Emotional Volatility": 0.475,
+        "Intellectual Curiosity": 0.8,
+        "Aesthetic Sensitivity": 0.55,
+        "Creative Imagination": 0.375
+      },
+      "degree_centrality": 0.2632,
+      "betweenness_centrality": 0.0231,
+      "age": 32,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "7",
+      "degree": 11,
+      "cluster": 1,
+      "traits": {
+        "Sociability": 0.65,
+        "Assertiveness": 0.475,
+        "Energy Level": 0.675,
+        "Compassion": 0.475,
+        "Respectfulness": 0.875,
+        "Trust": 0.475,
+        "Organization": 0.675,
+        "Productiveness": 0.725,
+        "Responsibility": 0.925,
+        "Anxiety": 0.7,
+        "Depression": 0.2,
+        "Emotional Volatility": 0.4,
+        "Intellectual Curiosity": 0.55,
+        "Aesthetic Sensitivity": 0.55,
+        "Creative Imagination": 0.65
+      },
+      "degree_centrality": 0.5789,
+      "betweenness_centrality": 0.1789,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "8",
+      "degree": 3,
+      "cluster": 2,
+      "traits": {
+        "Sociability": 0.3,
+        "Assertiveness": 0.525,
+        "Energy Level": 0.475,
+        "Compassion": 0.725,
+        "Respectfulness": 1.0,
+        "Trust": 0.675,
+        "Organization": 0.575,
+        "Productiveness": 0.525,
+        "Responsibility": 0.5,
+        "Anxiety": 0.05,
+        "Depression": 0.15,
+        "Emotional Volatility": 0.0,
+        "Intellectual Curiosity": 0.9,
+        "Aesthetic Sensitivity": 0.925,
+        "Creative Imagination": 0.7
+      },
+      "degree_centrality": 0.1579,
+      "betweenness_centrality": 0.0051,
+      "age": 22,
+      "gender": "male",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "9",
+      "degree": 5,
+      "cluster": 2,
+      "traits": {
+        "Sociability": 0.775,
+        "Assertiveness": 0.8,
+        "Energy Level": 0.475,
+        "Compassion": 0.825,
+        "Respectfulness": 0.65,
+        "Trust": 0.525,
+        "Organization": 0.3,
+        "Productiveness": 0.525,
+        "Responsibility": 0.5,
+        "Anxiety": 0.85,
+        "Depression": 0.375,
+        "Emotional Volatility": 0.6,
+        "Intellectual Curiosity": 1.0,
+        "Aesthetic Sensitivity": 0.75,
+        "Creative Imagination": 0.925
+      },
+      "degree_centrality": 0.2632,
+      "betweenness_centrality": 0.0283,
+      "age": 32,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "10",
+      "degree": 5,
+      "cluster": 1,
+      "traits": {
+        "Sociability": 0.575,
+        "Assertiveness": 0.325,
+        "Energy Level": 0.475,
+        "Compassion": 0.5,
+        "Respectfulness": 0.775,
+        "Trust": 0.375,
+        "Organization": 0.575,
+        "Productiveness": 0.225,
+        "Responsibility": 0.575,
+        "Anxiety": 0.875,
+        "Depression": 0.85,
+        "Emotional Volatility": 0.95,
+        "Intellectual Curiosity": 0.6,
+        "Aesthetic Sensitivity": 0.425,
+        "Creative Imagination": 0.25
+      },
+      "degree_centrality": 0.2632,
+      "betweenness_centrality": 0.0139,
+      "age": 32,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "11",
+      "degree": 6,
+      "cluster": 0,
+      "traits": {
+        "Sociability": 0.275,
+        "Assertiveness": 0.45,
+        "Energy Level": 0.725,
+        "Compassion": 0.8,
+        "Respectfulness": 0.975,
+        "Trust": 0.55,
+        "Organization": 0.825,
+        "Productiveness": 0.75,
+        "Responsibility": 0.95,
+        "Anxiety": 0.875,
+        "Depression": 0.45,
+        "Emotional Volatility": 0.725,
+        "Intellectual Curiosity": 0.725,
+        "Aesthetic Sensitivity": 0.7,
+        "Creative Imagination": 0.875
+      },
+      "degree_centrality": 0.3158,
+      "betweenness_centrality": 0.107,
+      "age": 55,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "12",
+      "degree": 5,
+      "cluster": 2,
+      "traits": {
+        "Sociability": 0.4,
+        "Assertiveness": 0.775,
+        "Energy Level": 0.675,
+        "Compassion": 1.0,
+        "Respectfulness": 0.8,
+        "Trust": 0.625,
+        "Organization": 0.65,
+        "Productiveness": 0.575,
+        "Responsibility": 0.65,
+        "Anxiety": 0.25,
+        "Depression": 0.7,
+        "Emotional Volatility": 0.575,
+        "Intellectual Curiosity": 0.825,
+        "Aesthetic Sensitivity": 1.0,
+        "Creative Imagination": 0.75
+      },
+      "degree_centrality": 0.2632,
+      "betweenness_centrality": 0.0136,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "13",
+      "degree": 2,
+      "cluster": 1,
+      "traits": {
+        "Sociability": 0.125,
+        "Assertiveness": 0.375,
+        "Energy Level": 0.875,
+        "Compassion": 0.7,
+        "Respectfulness": 0.95,
+        "Trust": 1.0,
+        "Organization": 0.85,
+        "Productiveness": 0.875,
+        "Responsibility": 1.0,
+        "Anxiety": 0.55,
+        "Depression": 0.6,
+        "Emotional Volatility": 0.2,
+        "Intellectual Curiosity": 0.575,
+        "Aesthetic Sensitivity": 0.9,
+        "Creative Imagination": 0.425
+      },
+      "degree_centrality": 0.1053,
+      "betweenness_centrality": 0.0,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "14",
+      "degree": 6,
+      "cluster": 2,
+      "traits": {
+        "Sociability": 0.55,
+        "Assertiveness": 0.475,
+        "Energy Level": 0.625,
+        "Compassion": 0.975,
+        "Respectfulness": 0.925,
+        "Trust": 0.65,
+        "Organization": 0.3,
+        "Productiveness": 0.5,
+        "Responsibility": 0.55,
+        "Anxiety": 0.4,
+        "Depression": 0.425,
+        "Emotional Volatility": 0.225,
+        "Intellectual Curiosity": 0.825,
+        "Aesthetic Sensitivity": 0.85,
+        "Creative Imagination": 0.925
+      },
+      "degree_centrality": 0.3158,
+      "betweenness_centrality": 0.0432,
+      "age": 32,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "15",
+      "degree": 3,
+      "cluster": 3,
+      "traits": {
+        "Sociability": 0.425,
+        "Assertiveness": 0.5,
+        "Energy Level": 0.275,
+        "Compassion": 0.5,
+        "Respectfulness": 0.525,
+        "Trust": 0.775,
+        "Organization": 0.5,
+        "Productiveness": 0.35,
+        "Responsibility": 0.45,
+        "Anxiety": 0.725,
+        "Depression": 0.7,
+        "Emotional Volatility": 0.55,
+        "Intellectual Curiosity": 0.9,
+        "Aesthetic Sensitivity": 0.65,
+        "Creative Imagination": 0.625
+      },
+      "degree_centrality": 0.1579,
+      "betweenness_centrality": 0.0049,
+      "age": 22,
+      "gender": "male",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "16",
+      "degree": 0,
+      "cluster": 4,
+      "traits": {
+        "Sociability": 0.25,
+        "Assertiveness": 0.275,
+        "Energy Level": 0.425,
+        "Compassion": 0.825,
+        "Respectfulness": 1.0,
+        "Trust": 0.6,
+        "Organization": 0.65,
+        "Productiveness": 0.5,
+        "Responsibility": 0.55,
+        "Anxiety": 0.65,
+        "Depression": 0.45,
+        "Emotional Volatility": 0.375,
+        "Intellectual Curiosity": 0.325,
+        "Aesthetic Sensitivity": 0.5,
+        "Creative Imagination": 0.4
+      },
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "17",
+      "degree": 1,
+      "cluster": 0,
+      "traits": {
+        "Sociability": 0.05,
+        "Assertiveness": 0.6,
+        "Energy Level": 0.8,
+        "Compassion": 0.9,
+        "Respectfulness": 0.65,
+        "Trust": 0.575,
+        "Organization": 0.5,
+        "Productiveness": 0.625,
+        "Responsibility": 0.6,
+        "Anxiety": 0.75,
+        "Depression": 0.575,
+        "Emotional Volatility": 0.525,
+        "Intellectual Curiosity": 0.925,
+        "Aesthetic Sensitivity": 0.825,
+        "Creative Imagination": 1.0
+      },
+      "degree_centrality": 0.0526,
+      "betweenness_centrality": 0.0,
+      "age": 32,
+      "gender": "male",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "18",
+      "degree": 4,
+      "cluster": 1,
+      "traits": {
+        "Sociability": 0.475,
+        "Assertiveness": 0.325,
+        "Energy Level": 0.35,
+        "Compassion": 0.575,
+        "Respectfulness": 0.475,
+        "Trust": 0.425,
+        "Organization": 0.3,
+        "Productiveness": 0.1,
+        "Responsibility": 0.425,
+        "Anxiety": 0.675,
+        "Depression": 0.625,
+        "Emotional Volatility": 0.325,
+        "Intellectual Curiosity": 0.65,
+        "Aesthetic Sensitivity": 0.7,
+        "Creative Imagination": 0.825
+      },
+      "degree_centrality": 0.2105,
+      "betweenness_centrality": 0.0082,
+      "age": 22,
+      "gender": "female",
+      "text_opinion": ""
+    },
+    {
+      "agent_id": "19",
+      "degree": 5,
+      "cluster": 3,
+      "traits": {
+        "Sociability": 0.025,
+        "Assertiveness": 0.3,
+        "Energy Level": 0.525,
+        "Compassion": 0.975,
+        "Respectfulness": 0.875,
+        "Trust": 0.6,
+        "Organization": 0.55,
+        "Productiveness": 0.75,
+        "Responsibility": 0.875,
+        "Anxiety": 0.725,
+        "Depression": 0.9,
+        "Emotional Volatility": 0.475,
+        "Intellectual Curiosity": 0.725,
+        "Aesthetic Sensitivity": 0.675,
+        "Creative Imagination": 0.6
+      },
+      "degree_centrality": 0.2632,
+      "betweenness_centrality": 0.0218,
+      "age": 32,
+      "gender": "female",
+      "text_opinion": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "weight": 0.6855
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "weight": 0.692
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "weight": 0.6723
+    },
+    {
+      "source": "0",
+      "target": "5",
+      "weight": 0.689
+    },
+    {
+      "source": "0",
+      "target": "9",
+      "weight": 0.7498
+    },
+    {
+      "source": "0",
+      "target": "10",
+      "weight": 0.6509
+    },
+    {
+      "source": "0",
+      "target": "11",
+      "weight": 0.6863
+    },
+    {
+      "source": "0",
+      "target": "12",
+      "weight": 0.6275
+    },
+    {
+      "source": "0",
+      "target": "19",
+      "weight": 0.6932
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "weight": 0.6702
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "weight": 0.699
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "weight": 0.6366
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "weight": 0.6411
+    },
+    {
+      "source": "1",
+      "target": "11",
+      "weight": 0.6551
+    },
+    {
+      "source": "1",
+      "target": "18",
+      "weight": 0.6904
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "weight": 0.6611
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "weight": 0.6495
+    },
+    {
+      "source": "2",
+      "target": "5",
+      "weight": 0.6972
+    },
+    {
+      "source": "2",
+      "target": "6",
+      "weight": 0.6444
+    },
+    {
+      "source": "2",
+      "target": "7",
+      "weight": 0.6597
+    },
+    {
+      "source": "2",
+      "target": "11",
+      "weight": 0.7016
+    },
+    {
+      "source": "2",
+      "target": "12",
+      "weight": 0.6298
+    },
+    {
+      "source": "2",
+      "target": "15",
+      "weight": 0.6551
+    },
+    {
+      "source": "2",
+      "target": "19",
+      "weight": 0.6415
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "weight": 0.7169
+    },
+    {
+      "source": "3",
+      "target": "7",
+      "weight": 0.6457
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "weight": 0.6954
+    },
+    {
+      "source": "4",
+      "target": "14",
+      "weight": 0.759
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "weight": 0.6027
+    },
+    {
+      "source": "5",
+      "target": "8",
+      "weight": 0.6466
+    },
+    {
+      "source": "5",
+      "target": "10",
+      "weight": 0.6616
+    },
+    {
+      "source": "5",
+      "target": "13",
+      "weight": 0.6253
+    },
+    {
+      "source": "5",
+      "target": "18",
+      "weight": 0.6401
+    },
+    {
+      "source": "6",
+      "target": "7",
+      "weight": 0.598
+    },
+    {
+      "source": "6",
+      "target": "15",
+      "weight": 0.6388
+    },
+    {
+      "source": "6",
+      "target": "19",
+      "weight": 0.6575
+    },
+    {
+      "source": "7",
+      "target": "9",
+      "weight": 0.6988
+    },
+    {
+      "source": "7",
+      "target": "10",
+      "weight": 0.6613
+    },
+    {
+      "source": "7",
+      "target": "11",
+      "weight": 0.6095
+    },
+    {
+      "source": "7",
+      "target": "13",
+      "weight": 0.6043
+    },
+    {
+      "source": "7",
+      "target": "14",
+      "weight": 0.6073
+    },
+    {
+      "source": "7",
+      "target": "18",
+      "weight": 0.6207
+    },
+    {
+      "source": "8",
+      "target": "14",
+      "weight": 0.6851
+    },
+    {
+      "source": "9",
+      "target": "12",
+      "weight": 0.6012
+    },
+    {
+      "source": "9",
+      "target": "14",
+      "weight": 0.7007
+    },
+    {
+      "source": "9",
+      "target": "15",
+      "weight": 0.6709
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "weight": 0.6619
+    },
+    {
+      "source": "10",
+      "target": "12",
+      "weight": 0.6092
+    },
+    {
+      "source": "11",
+      "target": "17",
+      "weight": 0.6213
+    },
+    {
+      "source": "12",
+      "target": "14",
+      "weight": 0.6243
+    },
+    {
+      "source": "14",
+      "target": "19",
+      "weight": 0.693
+    },
+    {
+      "source": "18",
+      "target": "19",
+      "weight": 0.6602
+    }
+  ]
+}
