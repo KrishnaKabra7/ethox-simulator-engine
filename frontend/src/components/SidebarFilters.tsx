@@ -74,8 +74,8 @@ export function SidebarFilters({
   const toggleLabels = useUIStore((s) => s.toggleLabels);
   const showAgeEncoding = useUIStore((s) => s.showAgeEncoding);
   const showGenderEncoding = useUIStore((s) => s.showGenderEncoding);
-  const setShowAgeEncoding = useUIStore((s) => s.setShowAgeEncoding);
-  const setShowGenderEncoding = useUIStore((s) => s.setShowGenderEncoding);
+  // const setShowAgeEncoding = useUIStore((s) => s.setShowAgeEncoding);
+  // const setShowGenderEncoding = useUIStore((s) => s.setShowGenderEncoding);
   const sidebarCollapsed = useUIStore((s) => s.sidebarCollapsed);
   const setSidebarCollapsed = useUIStore((s) => s.setSidebarCollapsed);
   const filtersSectionOpen = useUIStore((s) => s.filtersSectionOpen);

@@ -27,7 +27,7 @@ export function GraphExploreControls() {
   const setPathTo = useUIStore((s) => s.setPathTo);
   const setNeighborhoodCenter = useUIStore((s) => s.setNeighborhoodCenter);
   const setExploreHops = useUIStore((s) => s.setExploreHops);
-  const setPreferInfluence = useUIStore((s) => s.setPreferInfluence);
+  // const setPreferInfluence = useUIStore((s) => s.setPreferInfluence);
   const setHighlighted = useUIStore((s) => s.setHighlighted);
   const clearHighlight = useUIStore((s) => s.clearHighlight);
   const setExploreStatus = useUIStore((s) => s.setExploreStatus);

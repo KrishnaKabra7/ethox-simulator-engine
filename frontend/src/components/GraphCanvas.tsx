@@ -18,7 +18,7 @@ import { hexToRgba, getOpinionColor, blendHex } from "../utils/color";
 import { NodeSquareProgram, NodeTriangleProgram, NodeDiamondProgram } from "../sigma-shapes/NodeShapePrograms";
 import { edgeKey } from "../utils/graphAlgorithms";
 import { CareImpactOverlay } from "./CareImpactOverlay";
-import { CareLegend } from "./CareLegend";
+// import { CareLegend } from "./CareLegend";
 
 interface GraphCanvasProps {
   graphRef: React.MutableRefObject<Graph | null>;
@@ -498,7 +498,7 @@ export function GraphCanvas({ graphRef, onSigmaReady }: GraphCanvasProps) {
     careAnimationStatus === "animating" ||
     (simulationIsAnimating && animationProgress < 1) ||
     overlayFading;
-  const showCareLegend = careAnimationStatus === "done" || (simulationIsAnimating && animationProgress > 0);
+  // const showCareLegend = careAnimationStatus === "done" || (simulationIsAnimating && animationProgress > 0);
 
   return (
     <div className="absolute inset-0 flex flex-col overflow-hidden rounded-2xl border border-aurora-border/40 bg-aurora-surface0/30 shadow-sm">
@@ -513,7 +513,7 @@ export function GraphCanvas({ graphRef, onSigmaReady }: GraphCanvasProps) {
           }}
         />
         <CareImpactOverlay visible={showCareOverlay} fading={overlayFading} progress={animationProgress} />
-        <CareLegend visible={showCareLegend} />
+        {/* <CareLegend visible={showCareLegend} /> */}
       </div>
       {showEmptyState && (
         <div className="absolute inset-0 flex items-center justify-center bg-aurora-bg0/90 backdrop-blur-[1px]">

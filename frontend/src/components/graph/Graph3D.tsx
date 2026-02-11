@@ -26,14 +26,14 @@ const MOVEMENT_KEYS = new Set([
 ]);
 const IGNORE_TAG_NAMES = new Set(["INPUT", "TEXTAREA", "SELECT"]);
 
-function shouldIgnoreKeyboard(ev: KeyboardEvent): boolean {
+function shouldIgnoreKeyboard(): boolean {
   const el = document.activeElement;
   if (el && (IGNORE_TAG_NAMES.has((el as HTMLElement).tagName) || (el as HTMLElement).isContentEditable)) return true;
   if (document.querySelector('[role="dialog"]')) return true;
   return false;
 }
 
-const EDGE_COLOR_DIM = "rgba(234,242,242,0.38)";
+// const EDGE_COLOR_DIM = "rgba(234,242,242,0.38)";
 const EDGE_COLOR_HIGHLIGHT = "rgba(38,198,255,0.75)";
 const LINK_WIDTH_DIM = 0.9;
 const LINK_WIDTH_HIGHLIGHT = 1.8;
@@ -185,7 +185,7 @@ export function Graph3D({
   }, [updateCameraPosition]);
 
   const handleKeyDown = useCallback((ev: KeyboardEvent) => {
-    if (shouldIgnoreKeyboard(ev)) return;
+    if (shouldIgnoreKeyboard()) return;
     if (ev.key === "Shift") { shiftPressed.current = true; return; }
     if (ev.key === "Alt") { altPressed.current = true; return; }
     if (!MOVEMENT_KEYS.has(ev.code)) return;

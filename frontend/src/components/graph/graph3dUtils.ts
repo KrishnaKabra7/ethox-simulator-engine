@@ -41,7 +41,7 @@ export function createNodeMesh(
 ): THREE.Mesh {
   const size = 0.75;
   const geometry = getCachedGeometry(shape, size);
-  const isHighlight = opts.hovered || opts.selected;
+  // const isHighlight = opts.hovered || opts.selected;
   const material = new THREE.MeshStandardMaterial({
     color,
     metalness: 0.08,

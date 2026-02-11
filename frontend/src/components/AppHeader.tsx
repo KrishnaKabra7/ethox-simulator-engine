@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Listbox } from "@headlessui/react";
-import { LayoutGrid, FlaskConical, ChevronUp, Pencil, Play, RotateCcw, Zap, MessageCircle } from "lucide-react";
+import { FlaskConical, Play, RotateCcw, Zap, MessageCircle } from "lucide-react";
 import { useUIStore } from "../store/useUIStore";
 import { useGraphStore } from "../store/useGraphStore";
 import { useSimulationStore } from "../store/useSimulationStore";
@@ -23,11 +23,10 @@ export function AppHeader({ onSearchSelect: _onSearchSelect }: AppHeaderProps) {
   const experiments = useExperimentStore((s) => s.experiments);
   const addExperiment = useExperimentStore((s) => s.addExperiment);
   const setExperimentPanelOpen = useExperimentStore((s) => s.setExperimentPanelOpen);
-  const societyViewOpen = useUIStore((s) => s.societyViewOpen);
-  const setSocietyViewOpen = useUIStore((s) => s.setSocietyViewOpen);
+  // const setSocietyViewOpen = useUIStore((s) => s.setSocietyViewOpen);
   const graphViewMode = useUIStore((s) => s.graphViewMode);
   const setGraphViewMode = useUIStore((s) => s.setGraphViewMode);
-  const setHeaderCollapsed = useUIStore((s) => s.setHeaderCollapsed);
+  // const setHeaderCollapsed = useUIStore((s) => s.setHeaderCollapsed);
   const simulationInput = useSimulationStore((s) => s.simulationInput);
   const initialGraph = useSimulationStore((s) => s.initialGraph);
   const viewMode = useSimulationStore((s) => s.viewMode);

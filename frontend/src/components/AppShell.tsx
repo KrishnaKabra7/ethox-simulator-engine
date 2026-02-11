@@ -1,6 +1,6 @@
 import { useRef, useState, useCallback, useEffect, useMemo } from "react";
 import { CareImpactOverlay } from "./CareImpactOverlay";
-import { CareLegend } from "./CareLegend";
+// import { CareLegend } from "./CareLegend";
 import { Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 import { AppHeader } from "./AppHeader";
@@ -81,7 +81,7 @@ export function AppShell() {
     careAnimationStatus === "animating" ||
     (simulationIsAnimating && animationProgress < 1) ||
     overlayFading3D;
-  const showCareLegend3D = careAnimationStatus === "done" || (simulationIsAnimating && animationProgress > 0);
+  // const showCareLegend3D = careAnimationStatus === "done" || (simulationIsAnimating && animationProgress > 0);
   const fgData = useMemo(() => {
     const { nodes: fgNodes, links: fgLinks, capped } = exportVisibleGraphToForceGraphData(
       nodes,
@@ -192,7 +192,6 @@ export function AppShell() {
                     fading={overlayFading3D}
                     progress={animationProgress}
                   />
-                  <CareLegend visible={showCareLegend3D} />
                 </>
               )}
             </div>
