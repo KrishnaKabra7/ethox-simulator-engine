@@ -1,4 +1,7 @@
-const BASE = "";
+// Base API URL. Set `VITE_API_BASE` in the frontend environment to point
+// to a deployed backend (e.g. https://my-backend.up.railway.app). When
+// empty, requests are relative to the page origin.
+const BASE = (import.meta.env.VITE_API_BASE as string) || "";
 
 export type GenderLabel = "male" | "female";
 
