@@ -183,3 +183,23 @@ After running `python main.py`, you'll find:
 - Amazon dataset is bundled under `datasets/`.
 - Optional: place `BFI2.csv` in the repo root to use real BFI-2 data; otherwise
   synthetic training data is generated automatically.
+
+
+How to run? 
+backend: 
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r Hackathons/ETH/ethox-simulator-engine/requirements.txt
+set OPENAI_API_KEY=sk-...
+cd Hackathons/ETH/ethox-simulator-engine
+python main.py
+# or to run Django API:
+cd Hackathons/ETH/ethox-simulator-engine\backend
+.\..\.venv\Scripts\Activate.ps1
+pip install django djangorestframework corsheaders
+python manage.py runserver
+
+Frontend: 
+cd Hackathons/ETH/ethox-simulator-engine/frontend
+npm install
+npm run dev
