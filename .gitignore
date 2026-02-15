@@ -227,3 +227,6 @@ outputs/
 simulation/outputs/
 
 frontend/.vite/
+frontend/tsconfig.tsbuildinfo
+frontend/dist/
+frontend/node_modules/

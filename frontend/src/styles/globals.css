@@ -1,93 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* ========== Aurora Graph Lab Theme ========== */
-:root {
-  --bg-0: #050B10;
-  --bg-1: #07131A;
-  --surface-0: #0A1D24;
-  --surface-1: #0D2630;
-  --surface-2: #103543;
-  --border: rgba(120, 255, 245, 0.12);
-  --border-strong: rgba(120, 255, 245, 0.22);
-  --text-0: #EAF2F2;
-  --text-1: rgba(234, 242, 242, 0.72);
-  --text-2: rgba(234, 242, 242, 0.52);
-  --accent-0: #2AFADF;
-  --accent-1: #26C6FF;
-  --accent-2: #7C3AED;
-  --danger: #FB7185;
-  --success: #34D399;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+:root{
+  --panel-w: 340px;
 }
-
-body {
-  background: var(--bg-0);
-  color: var(--text-0);
-  margin: 0;
-  min-height: 100vh;
-  letter-spacing: -0.01em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Aurora utility classes */
-.aurora-gradient {
-  background: linear-gradient(90deg, var(--accent-0), var(--accent-1), var(--accent-2));
-}
-.aurora-glow {
-  box-shadow: 0 0 0 1px rgba(38, 198, 255, 0.25), 0 0 22px rgba(38, 198, 255, 0.18);
-}
-.surface-card {
-  background: var(--surface-0);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  border-radius: 16px;
-}
-.surface-elevated {
-  background: var(--surface-1);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-}
-
-/* Focus ring - cyan glow */
-.focus-ring-aurora:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px var(--bg-0), 0 0 0 4px var(--accent-1), 0 0 12px rgba(38, 198, 255, 0.35);
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: var(--bg-1);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--surface-2);
-  border-radius: 9999px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--border-strong);
-}
-
-/* Smooth transitions */
-button, a, [role="button"], input, select, [data-headlessui-listbox-button] {
-  transition: all 0.15s ease-out;
-}
-
-/* 3D graph container: vignette behind transparent WebGL canvas */
-.graph3d-container {
-  background: radial-gradient(
-    ellipse 80% 80% at 50% 50%,
-    rgba(5, 11, 16, 0.2) 0%,
-    rgba(5, 11, 16, 0.6) 55%,
-    rgba(5, 11, 16, 0.92) 100%
-  );
-}
+html,body,#root{height:100%;margin:0}
+.app-root{height:100vh;display:flex}
+.sidepanel{width:var(--panel-w);background:#071014;color:#e6f6f7;transition:transform .22s ease;border-right:1px solid rgba(255,255,255,0.04);display:flex;flex-direction:column}
+.sidepanel.closed{transform:translateX(calc(-1 * var(--panel-w)))}
+.sidepanel-header{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.sidepanel-body{padding:12px;overflow:auto}
+.graph-center{flex:1;position:relative;background:#050b10}
+.floating-input{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;display:flex;gap:8px;align-items:center;z-index:60}
+.floating-input input{width:640px;padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:rgba(255,255,255,0.02);color:#eaf2f2}
+.floating-input button{padding:10px 14px;border-radius:8px;border:none;background:#26c6ff;color:#042027;font-weight:600}
+.error-banner{position:absolute;left:12px;top:12px;background:#ffdddd;color:#600;padding:8px;border-radius:6px}
